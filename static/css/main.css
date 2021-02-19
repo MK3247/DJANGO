@@ -1,0 +1,32 @@
+body {
+    width: 80%;
+    margin: auto;
+    /* background-color: bisque; */
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-gap: 4px;
+    padding: 10px;
+}
+
+.container > div {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.sidebar {
+    background-color: grey;
+}
+
+.main > h2 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.main h2 a:hover {
+    color: red;
+}
